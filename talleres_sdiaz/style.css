@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+        /* Ubicación de la imagen */
+
+        background-image: url("img/portada7.jpg");                
+                                
+                
+        /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+
+        background-position: center center;
+
+        /* Para que la imagen de fondo no se repita */
+
+        background-repeat: no-repeat;
+
+        /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+        background-attachment: fixed;
+
+        /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+        background-size: cover;
+
+        /* Se muestra un color de fondo mientras se está cargando la imagen
+
+        de fondo o si hay problemas para cargarla */
+
+        background-color: #C8CACA; 
+        }
+
+.titulo{
+        color: #818384;
+        text-align: center;
+        font-size: 40px;
+        opacity: 0.6;
+        }
+
+.button {
+        border-radius: 10px;
+        background-color: #BDBDBD; 
+        color: #818384;
+        font-size: 80px;
+        padding: 25px 15px;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        margin: 44px 22px;
+        cursor: pointer;
+        opacity: 0.6;
+        }
+
+.cliente{
+        border: 10px solid #0E8896;
+        }
+.cliente:hover{
+        background: #C7C8C8;
+        color: #0E8896;
+        opacity: 1.0;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }  
+        
+.empleado{
+        border: 10px solid #0E8896;
+        }
+         
+.empleado:hover{
+        background: #C7C8C8;
+        color: #0E8896;
+        opacity: 1.0;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        } 
