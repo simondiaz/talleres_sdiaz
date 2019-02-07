@@ -1,75 +1,106 @@
+/* Viewport */
 * {
     box-sizing: border-box;
   }
 
-body {
-        /* Ubicación de la imagen */
 
-        background-image: url("img/portada7.jpg");                
+
+/* damos el tamaño de cada colunma del Grid-View */
+        [class*="col-"] {
+                float: left;
+                padding: 15px;
+                border: 1px solid red;
+        } 
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+/* damos un estilo al fondo */
+        body {
+                /* Ubicación de la imagen */
+                background-image: url("img/portada11.jpg");                
                                 
                 
-        /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+                /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
 
-        background-position: center center;
+                background-position: center center;
 
-        /* Para que la imagen de fondo no se repita */
+                /* Para que la imagen de fondo no se repita */
 
-        background-repeat: no-repeat;
+                background-repeat: no-repeat;
 
-        /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+                /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
 
-        background-attachment: fixed;
+                background-attachment: fixed;
 
-        /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+                /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
 
-        background-size: cover;
+                background-size: cover;
 
-        /* Se muestra un color de fondo mientras se está cargando la imagen
+                /* Se muestra un color de fondo mientras se está cargando la imagen
 
-        de fondo o si hay problemas para cargarla */
+                de fondo o si hay problemas para cargarla */
 
-        background-color: #C8CACA; 
-        }
+                background-color: #C8CACA; 
+                }
 
-.titulo{
-        color: #818384;
-        text-align: center;
-        font-size: 40px;
-        opacity: 0.6;
-        }
+/* damos un estilo al título*/
+        .titulo{
+                color: #F1EEF5;
+                text-align: center;
+                font-size: 40px;
+                opacity: 0.6;
+                 }
 
-.button {
-        border-radius: 10px;
-        background-color: #BDBDBD; 
-        color: #818384;
-        font-size: 80px;
-        padding: 25px 15px;
-        text-align: center;
-        font-weight: 600;
-        text-decoration: none;
-        display: inline-block;
-        margin: 44px 22px;
-        cursor: pointer;
-        opacity: 0.6;
-        }
+/* damos un estilo a los botones */
+        .button {
+                border-radius: 10px;
+                background-color: #F1EEF5; 
+                color: #818384;
+                font-size: 80px;
+                padding: 25px 15px;
+                text-align: center;
+                font-weight: 600;
+                text-decoration: none;
+                display: inline-block;
+                margin: 44px 22px;
+                cursor: pointer;
+                opacity: 0.3;
+                border: 10px solid #0E8896;
+                }
 
-.cliente{
-        border: 10px solid #0E8896;
-        }
-.cliente:hover{
-        background: #C7C8C8;
-        color: #0E8896;
-        opacity: 1.0;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-        }  
+/* creamos efecto a los botones*/
+
         
-.empleado{
-        border: 10px solid #0E8896;
-        }
+        .cliente:hover{
+                background: #F1EEF5;
+                color: #0E8896;
+                opacity: 1.0;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                }  
+        
          
-.empleado:hover{
-        background: #C7C8C8;
-        color: #0E8896;
-        opacity: 1.0;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-        } 
+        .empleado:hover{
+                 background: #F1EEF5;
+                color: #0E8896;
+                opacity: 1.0;
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                } 
+
+
+/* damos un estilo al copy */
+        .copy{
+                color: #F1EEF5;
+                opacity: 0.6;
+        }
+
