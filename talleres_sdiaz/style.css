@@ -9,7 +9,7 @@
         [class*="col-"] {
                 float: left;
                 padding: 15px;
-                border: 1px solid red;
+                /*border: 1px solid red;*/
         } 
 
         .col-1 {width: 8.33%;}
@@ -106,8 +106,5 @@
                 font-size: 15px;               
                 }
 
-        #logo{
-                width: 150px;                
-                opacity: 0.6;
-                }
+        
 
